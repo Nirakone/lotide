@@ -27,19 +27,19 @@ This project was created and published by me as part of my learnings at Lighthou
 The following functions are currently implemented:
 
 assertArraysEqual <br>
-assertEqual
-assertObjectsEqual
-countLetters
-countOnly
-eqArrays
-eqObjects
-flatten
-findKey
-findKeyByValue
-head
-letterPositions
-map
-middle
-tail
-takeUntil
-without
+assertEqual <br>
+assertObjectsEqual <br>
+countLetters <br>
+countOnly <br>
+eqArrays <br>
+eqObjects <br>
+flatten <br>
+findKey <br>
+findKeyByValue <br>
+head <br>
+letterPositions <br>
+map <br>
+middle <br>
+tail <br>
+takeUntil <br>
+without <br>
