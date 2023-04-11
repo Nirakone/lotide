@@ -1,5 +1,3 @@
-//const assertArraysEqual = require('../assertArraysEqual');
-
 /* goes through array items, pushes them out of inner array, gives count of how many
 items in new flat array */
 
@@ -17,7 +15,7 @@ const flatten = (nestedArrays) => {
   console.log(flattenedArray);
   return flattenedArray;
 };
-
+//test case
 // flatten([1, 2, [3, 4], 5, [6]]) // => [1, 2, 3, 4, 5, 6]
 
 module.exports = flatten;

@@ -1,6 +1,5 @@
 const assertEqual = require('../assertEqual');
 
-
 const findKeyByValue = function(showType, showName) {
 
   for (const key of Object.keys(showType)) {
@@ -9,8 +8,6 @@ const findKeyByValue = function(showType, showName) {
     }
   }
 };
-
-
 // test cases
 
 const bestTVShowsByGenre = {
