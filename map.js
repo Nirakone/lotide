@@ -1,4 +1,4 @@
-const assertArraysEqual = require('../assertArraysEqual');
+const assertArraysEqual = require('./assertArraysEqual');
 
 const map = function(array,callback) {
   const results = [];
@@ -8,6 +8,7 @@ const map = function(array,callback) {
   return results;
 };
 
+// test cases
 const words = ["ground", "control", "to", "major", "tom"];
 const resultsOne = map(words, word => word[0]);
 console.log(resultsOne);

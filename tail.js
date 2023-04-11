@@ -1,8 +1,10 @@
-//const assertEqual = require('../assertEqual');
+//uncomment imported function to test below cases
+//const assertEqual = require('./assertEqual');
 
 const tail = (array) => {
   return array.slice(1);
 };
+
 //test cases
 // const result = tail(["Hello", "Lighthouse", "Labs"]);
 // assertEqual(result, ["Lighthouse", "Labs"]); // => will always fail!

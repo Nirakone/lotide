@@ -1,6 +1,5 @@
 /* goes through array items, pushes them out of inner array, gives count of how many
 items in new flat array */
-
 const flatten = (nestedArrays) => {
   let flattenedArray = [];
   for (let f = 0; f < nestedArrays.length; f++) {

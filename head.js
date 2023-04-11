@@ -1,3 +1,4 @@
+//uncomment below to test code
 //const assertEqual = require('./assertEqual');
 
 const head = function(array) {
