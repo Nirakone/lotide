@@ -1,33 +1,3 @@
-// const eqArrays = function(arrayA, arrayB) {
-//   if (arrayA.length !== arrayB.length) {
-//     return false;
-//   } // if arrays are not the same
-  
-//   for (let i = 0; i < arrayA.length; i++) {
-//     if (arrayA[i] !== arrayB[i] && (!Array.isArray(arrayA[i]) || !Array.isArray(arrayB[i]))) {
-//       return false;
-//     }
-//     // if pieces of arrays don't match
-//     if (Array.isArray(arrayA[i]) && Array.isArray(arrayB[i])) {
-//       if (!eqArrays(arrayA[i], arrayB[i])) {
-//         return false;
-//       }
-//     }
-//   }
-//   return true;
-// };
-// const assertArraysEqual = function(arrayA, arrayB) {
-//   const result = eqArrays(arrayA,arrayB);
-//   if (result) {
-//     console.log(`✅✅✅  Assertion passed: ${arrayA} === ${arrayB}`);
-//   } else {
-//     console.log(`🛑🛑🛑  Assertion failed: ${arrayA} !== ${arrayB}`);
-//   }
-// };
-
-// const assertArraysEqual = require('../assertArraysEqual');
-
-
 const middle = (arrayA) => {
   let middleItem = [];
   if (arrayA.length <= 2) {
