@@ -2,11 +2,12 @@ const assertArraysEqual = require('./assertArraysEqual');
 
 const letterPositions = function(sentence) {
   const results = {};
-  for (let i = 0; i < sentence.length; i++) {
-    if (results[sentence[i]]) {
-      results[sentence[i]].push(i);
+  let noSpaces = sentence.replace(/\s/g, "");
+  for (let i = 0; i < noSpaces.length; i++) {
+    if (results[noSpaces[i]]) {
+      results[noSpaces[i]].push(i);
     }  else {
-      results[sentence[i]] = [i];
+      results[noSpaces[i]] = [i];
     }
   }
 
@@ -14,7 +15,6 @@ const letterPositions = function(sentence) {
 };
 
 // test case
-assertArraysEqual(letterPositions("hello").e, [1]);
+assertArraysEqual(letterPositions("h e l l o").e, [1]);
 
 module.exports = letterPositions;
-
